@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(90deg , #7d5fff, #7158e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: url(MV5BODk1NWI5YjMtOGQ4Ni00MWQ0LWI5YTUtMzc1ZmU2MGQzM2RjXkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_.jpg);
+
+}
+.search{
+    position: relative;
+    height: 50px; 
+
+}
+.search .input{
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    transition: width 0.3s ease;
+}
+.btn{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    height: 52px;
+    width: 52px;
+    transition: transform 0.3s ease;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input.focus,
+.btn.focus{
+   outline: none; 
+}
+.search.active .input{
+    width: 220px;
+}
+.search.active .btn{
+    transform: translateX(228px);
+
+}
+.search .btn:hover{
+    border: 2px solid red;
+}
+.search .btn i:hover{
+     color: red;
+}
+.search1{
+    position: relative;
+    height: 50px; 
+}
+
+.search1 .input1{
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+
+}
+.btn1{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    height: 52px;
+    width: 52px;
+    transition: transform 0.3s ease;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.search1.active1 .input1{
+    width: 220px;
+}
+.search1.active1 .btn1{
+    transform: translateX(228px);
+
+}
